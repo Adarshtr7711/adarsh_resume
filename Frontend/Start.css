@@ -1,0 +1,101 @@
+.p{ color:rgb(88, 88, 172);}
+.uppercase{text-transform : uppercase;
+            font-family:cursive;
+        }
+
+/* group selector */
+
+ul li{
+    color:goldenrod;
+}        
+
+.ok{color:greenyellow;
+    }
+
+/* pseudo class     */
+
+ ul li .one:hover{color:orange;}
+
+ /* adding colors */
+#body1{background-color:rgba(1,34,50,0.6)}
+
+/* relative units in css */
+/* rem */
+#p1{font-size:1em;
+      }
+
+#p1:hover{color:orchid;}      
+#p2{font-size:2em;}     
+
+#div3{height:1rem;
+      width:2rem;
+      background-color:aquamarine;
+    }      
+
+/* border */
+
+#div4{height:20vh;
+    width:30vw;
+    background-color:yellowgreen;
+}
+
+#div4{border-left:5px dotted goldenrod;
+    border-radius:5px;}
+
+ /* text styling    */
+#randomText{text-align:justify;
+            font-weight:900;
+            font-size:30px;
+            color:#141466;
+            
+        }
+/* background Image         */
+#div5{ height:50vh;
+
+    background-image: url(https://kabiniriversideescape.com/img3.1.jpeg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    
+    }
+
+    /* margin */
+    #div6{height:200px;
+            width:200px;
+            background-color:bisque;
+            margin:20px;
+            }
+    #div6_inner{height:50%;
+                width:50%;
+                background-color:#141466;
+                border-style:double;
+                border-color:tomato;
+                border-radius:3px;}        
+    #div6_padding{height:150px;
+                    width:150px;
+                    background-color:blueviolet;
+                    padding:10px;
+                    border-style:dashed;
+                    border-color:chartreuse;}
+
+/* position properties  */
+#outer_div{border:4px solid black;
+            position:relative;}
+
+#div_71{height:200px;
+        width:200px;
+        background-color:coral;
+        position:sticky;
+        left:10px;
+        bottom:100px;
+        }
+
+#div_72{height:200px;
+        width:200px;
+        background-color:cornflowerblue;
+        /* position:sticky; */
+}
+        
+#div_73{height:200px;
+        width:200px;
+        background-color:cornsilk;}

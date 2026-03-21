@@ -1,0 +1,386 @@
+/* header section */
+#header_body{
+    margin:10px;
+    margin-right:20px;
+    height:90vh;
+    width:100%;
+    background-size:cover;
+    overflow:hidden;
+    background-image:url("my_logo.png");
+    background-repeat: no-repeat;
+    /* opacity:0.8; */
+    background-attachment:fixed;
+    padding:10px;
+}
+
+/* main section     */
+    
+/* About section */
+#about{
+    height:100vh;
+    width:100%;
+    background-color:antiquewhite;
+    
+}
+
+#logo_image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:24%;
+}
+
+#p1{
+    text-align:center;
+    color:solid black;
+}
+
+#span1{
+    text-align:center;
+    color:rgb(0,70,100);
+}
+
+/* horizontal list */
+.horizontal-text{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    
+}
+
+.horizontal-text li {
+    display:inline;
+    margin:0px 8px 8px 0px;
+}
+.horizontal-text li a{
+    text-decoration: none;
+    padding-right:10px;
+    color:orangered;
+}
+
+.horizontal-text li a:hover{
+    color:black;
+    border-bottom: 2px solid black;
+    transition:color 2s, border-bottom 2s;
+}
+
+/* Name */
+.name_header{
+    text-align:center;
+    font-size:30px;
+    font-family: Times;
+    margin-top:200px;
+}
+
+.name_header1{
+    display:inline;
+}
+
+/* social media links */
+.social_media li {
+    display:inline;
+}
+.social_media{
+    text-align:center;
+}
+.social_media li a i{
+    font-size: 40px;
+}
+
+/* section-about */
+#about img{
+    height:200px;
+    width:200px;
+    margin-left:45%;
+    margin-top:-7vh;
+    border-radius: 40%;
+    border-style:dotted 20px green;
+    box-shadow:1px 1px 12px 1px orangered;
+
+}
+
+#p_about{
+    margin-left:15px;
+    margin-top:20px;
+    padding:0%;
+    font-size: 24px;
+    color:rgb(65, 57, 57);
+}
+/* .social_media li a{
+    text-decoration: none;
+} */
+
+/* section skills */
+#skills{
+    background-color:rgb(199, 197, 197);
+    height:100vh;
+    width:100%;
+}
+
+.skill-heading{
+    text-align:center;
+    font-size:45px;
+    padding-top:40px;
+    
+}
+
+.display-skill{
+    height:70vh;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    /* background-color:wheat; */
+    justify-content:space-around;
+}
+.bg{
+    height:50px;
+    width:17%;
+    display:flex;
+    background-color:rgb(235, 235, 207);
+    font-size:20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.parcent{
+    height:inherit;
+    width:50%;
+    background-color:rgb(207, 131, 15);
+    border-radius:20px 0px 0px 20px;
+}
+.sk-name{
+    height:inherit;
+    width:250px;
+    display:flex;
+    font-size:30px;
+    color:rgb(52, 44, 12);
+    /* background-color:aqua; */
+    /* text-align:left; */
+    justify-content:center;
+    align-items:center;
+    
+}
+
+
+.bg1{
+    height:50px;
+    width:17%;
+    display:flex;
+    background-color:rgb(235, 235, 207);
+    font-size:20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.parcent1{
+    height:inherit;
+    width:90%;
+    background-color:rgb(207, 131, 15);
+    border-radius:20px 0px 0px 20px;
+}
+.sk-name1{
+    height:inherit;
+    width:250px;
+    display:flex;
+    font-size:30px;
+    color:rgb(52, 44, 12);
+    /* background-color:aqua; */
+    /* text-align:left; */
+    justify-content:center;
+    align-items:center;
+} 
+
+.bg2{
+    height:50px;
+    width:17%;
+    display:flex;
+    background-color:rgb(235, 235, 207);
+    
+    font-size:20px;
+    border-radius: 20px 20px 20px 20px;
+}
+.parcent2{
+    height:inherit;
+    width:10%;
+    background-color:rgb(207, 131, 15);
+    border-radius:20px 0px 0px 20px;
+}
+.sk-name2{
+    height:inherit;
+    width:250px;
+    display:flex;
+    font-size:30px;
+    color:rgb(52, 44, 12);
+    /* background-color:aqua; */
+    /* text-align:left; */
+    justify-content:center;
+    align-items:center;
+}
+
+.break{
+    flex-basis:100%;
+    height:0%;
+}
+
+.bg3{
+    height:50px;
+    width:17%;
+    display:flex;
+    background-color:rgb(235, 235, 207);
+
+    border-radius:20px 20px 20px 20px;
+}
+
+.parcent3{
+    height:inherit;
+    width:100%;
+    background-color:rgb(207, 131, 15);
+    border-radius:20px 20px 20px 20px;
+}
+.sk-name3{
+    height:inherit;
+    width:250px;
+    display:flex;
+    font-size:30px;
+    color:rgb(52, 44, 12);
+    /* background-color:aqua; */
+    /* text-align:left; */
+    justify-content:center;
+    align-items:center;
+}
+
+/* Experiance Section */
+#experiance{
+    height:100vh;
+    width:100%;
+    background-color:lightblue;
+}
+/* Icon title */
+.icon-title{
+    text-align:center;
+    font-size:20px;
+    padding:10px;
+    color:darkblue;
+}
+/* timeline-border */
+.experiance-border{
+    /* height:500px; */
+    width:700px;
+    border-style:groove;
+    border-color:black;
+    margin-left:25%;
+    position: relative;
+}
+.flexbox{
+    height:165px;
+    width:300px;
+    display:flex;
+    border-style:groove;
+    border-color:black;
+    position:relative;
+}
+.flexbox:nth-child(2n){
+    /* position */
+    left:57%;
+}
+
+/* Timeline-border */
+.timeline-border{
+    position:absolute;
+    height:80%;
+    width:0;
+    border-style:dashed;
+    border-color:blue;
+    /* position */
+    left:50%;
+    top:7%;
+}
+/* timeline-icon */
+.timeline-icon{
+    transform: rotate(90deg);
+    top:25%;
+    position:sticky;
+    z-index:1;
+    font-size: 30px;
+}
+
+
+
+/* flexbox-dot */
+.flexbox:nth-child(2n)::after{
+    content:" ";
+    height:10px;
+    width:10px;
+    background-color:brown;
+    border-radius:50%;
+    position:relative;
+    top:30%;    
+    left:-18%;
+    z-index:1;
+}
+
+.flexbox:nth-child(2n+1)::after{
+    content:" ";
+    height:10px;
+    width:10px;
+    background-color:brown;
+    border-radius:50%;
+    top:30%;
+    position:relative;
+    left:345px;
+    z-index:1;
+}
+
+/* Education */
+#education{
+    height:100vh;
+    width:100%;
+    margin-top:8px;
+    background-color:antiquewhite;
+}
+
+/* graduation-icon */
+.graduation-icon{
+    text-align:center;
+    padding:10px;
+}
+/* lightbox-animation */
+.lightbox-link{
+    margin:10px;
+    padding-left:10px;
+    font-size:20px;
+    overflow:hidden;
+}
+#lightbox{
+    height:0;
+    width:0;
+    top:0;
+    left:0;
+    position:fixed;
+    overflow:hidden;
+    transition:all 2s ease-in-out;
+}
+#lightbox:target{
+    height: 300px;
+    width:300px;
+    top:25%;
+    left:25%;
+    background-color:azure;
+}
+
+@media screen and (max-width:600px){
+    .timeline-border{
+        left:-7%;
+    }
+    .timeline-icon{
+        left:-7%;
+    }
+    .flexbox:nth-child(2n){
+        left:-0.2%;
+    }
+    .experiance-border{
+        width:53%;
+    }
+    .flexbox:nth-child(2n+1)::after{
+        left:-9%;
+    }
+    .flexbox:nth-child(2n)::after {
+        left:-8.5%;
+    }
+}
