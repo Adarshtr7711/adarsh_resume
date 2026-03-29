@@ -384,3 +384,72 @@
         left:-8.5%;
     }
 }
+
+/* Portfolio */
+#portfolio{
+    height:100vh;
+    width:100%;
+    background-color:palegoldenrod;
+}
+.portfolio{
+    display:inline-block;
+    font-size:30px;
+}
+.portfoliospan1 i{
+    font-size:35px;
+}
+.portfoliospan1{
+    padding-left:45%;
+}
+
+/* Portfolio_flex_box_main */
+.portfoliodiv1{
+    display:flex;
+    height:80%;
+    width:90%;
+    border-width:3px;
+    border-color:black;
+    border-style:groove;
+    margin-left:70px;
+}
+
+.portfoliodiv11{
+    display:flex;
+    height:35%;
+    width:28%;
+    border-width:2px;
+    border-color:black;
+    border-style:groove;
+}
+.portfoliodiv12{
+    display:flex;
+    height:35%;
+    width:28%;
+    border-width:2px;
+    border-color:black;
+    border-style:groove;
+}
+.portfoliodiv13{
+    display:flex;
+    height:35%;
+    width:28%;
+    border-width:2px;
+    border-color:black;
+    border-style:groove;
+}
+
+
+
+/* Contact_Section */
+#contact{
+    height:100vh;
+    width:100%;
+    background:repeating-linear-gradient(rgb(152, 152, 241),rgb(239, 140, 140));
+}
+.contactspan1{
+    font-size:30px;
+    padding-left:43%;
+}
+.contacth2{
+    display:inline;
+}
