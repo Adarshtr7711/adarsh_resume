@@ -403,39 +403,63 @@
 }
 
 /* Portfolio_flex_box_main */
-.portfoliodiv1{
+#portfoliodiv1{
     display:flex;
     height:80%;
     width:90%;
     border-width:3px;
     border-color:black;
-    border-style:groove;
+    /* border-style:groove; */
     margin-left:70px;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    flex-basis:100%;
 }
 
 .portfoliodiv11{
     display:flex;
+    flex-direction:row;
     height:35%;
-    width:28%;
+    width:45%;
     border-width:2px;
     border-color:black;
     border-style:groove;
+    border-radius:10%;
+    box-shadow:1px 1px 13px 1px orangered;
 }
 .portfoliodiv12{
     display:flex;
+    flex-direction:row;
     height:35%;
-    width:28%;
+    width:45%;
     border-width:2px;
     border-color:black;
     border-style:groove;
+    border-radius:10%;
+    box-shadow:1px 1px 13px 1px lightseagreen;
 }
 .portfoliodiv13{
     display:flex;
+    flex-direction:row;
     height:35%;
-    width:28%;
+    width:45%;
     border-width:2px;
     border-color:black;
     border-style:groove;
+    justify-content:center;
+    border-radius:10%;
+    box-shadow:1px 1px 13px 1px lawngreen;
+}
+.portfoliodiv14{
+    display:flex;
+    flex-direction:row;
+    height:35%;
+    width:45%;
+    border-width:2px;
+    border-color:black;
+    border-style:groove;
+    border-radius:10%;
+    box-shadow:1px 1px 13px 1px lightcoral;
 }
 
 
