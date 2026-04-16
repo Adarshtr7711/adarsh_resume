@@ -463,6 +463,40 @@
 }
 
 
+/* Inside_Flexbox */
+.portfoliodiv11p1:hover{
+    color:orange;
+}
+.portfoliodiv11p1{
+    display:block;
+    width:40;
+    height:160;
+}
+
+.lightbox2{
+    display:block;
+    width:80px;
+    height:40px;
+}
+/* Lightbox_for_flexbox */
+
+#lightbox1{
+    height:0;
+    width:0;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow:hidden;
+    transition:all 2s ease-in-out;
+}
+
+#lightbox1:target{
+    height:25%;
+    width:25%;
+    top:30%;
+    left:30%;
+    background-color: aliceblue;
+}
 
 /* Contact_Section */
 #contact{
