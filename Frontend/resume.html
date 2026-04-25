@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Resume</title>
     <link rel="stylesheet" type="text/css" href="resume.css">
+    <script src="resume.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -128,28 +130,58 @@
                 <h2 class="portfolio">Portfolio</h2>
             </span>
             <div id="portfoliodiv1">
-                <span class="portfoliodiv11">
-                    <p class="portfoliodiv11p1"><b> yolo v10</b> In MCA as a major project</p>
-                    <br>
-                    <!-- Lightbox -->
-                    <span class="lightbox2">
-                        <a href="#lightbox1">more_Info</a>
-                    </span>
-                    <span id="lightbox1">
-                        <a href="#">X</a>
-                        <p>around 80 objects it will detects</p>
-                    </span>
-                </span>
+                <div class="portfoliodiv11">
+                    <form>
+                        <textarea id="portfoliotextbox" rows="3" columns="3">
+                            write here basic details about project
+                        </textarea>
+                    </form>    
+                </div>
                 <div class="portfoliodiv12"></div>
                 <div class="portfoliodiv13"></div>
                 <div class="portfoliodiv14"></div>
+                <div class="portfoliodiv15"></div>
+                <div class="portfoliodiv16"></div>
             </div>
         </section>
+
         <section id="contact">
-            <span class="contactspan1">
-                <i class="fa-solid fa-address-book"></i>
-                <h2 class="contacth2">Contact</h2>
+            <span>
+                <i class="fa-solid fa-address-book" id="contacti1"></i>
+                <h3 class="contacth3">Contact</h3>
             </span>
+            <div class="flexcontact">
+                <div class="flexmessage">
+                    <form id="contactform">
+                        <input type="text" id="formtext" placeholder="Your Name"><br><br>
+                        <input type="email" id="formemail" placeholder="abc@gmail.com"><br><br>
+                        <input type="text" id="formtext1" placeholder="Message"><br><br>
+                        <input type="submit" id="formsubmit" value="Submit">
+                    </form>
+                </div>
+                <div class="flexgetintouch">
+                    <h3 id="getintouchh31">Get in touch</h3>
+                    <p class="getintyouchp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum facilis itaque quis. Distinctio
+                        eos debitis molestiae aspernatur accusantium voluptate temporibus. Tempora voluptate vel dolore
+                        facilis fugit, in eius unde iusto!
+                    </p>
+                    <span>
+                        <h3 id="getintouchh32">My Address</h3>
+                        <i class="fa-solid fa-location-crosshairs" id="contacti2"></i>
+                            <p class="contacti2p">Karnataka, Bharath</p><br><br>
+                        <i class="fa-solid fa-phone" id="contacti3"></i>
+                            <p class="conatacti3p">+91 6384728392</p><br><br>
+                        <i class="fa-solid fa-envelope" id="contacti4"></i>
+                            <p class="contacti4p">adarshtr7711@gmail.com</p>    
+                    </span>
+                </div>
+                
+            </div>
+            <span class="contacts1">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-stack-overflow"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </span>
         </section>
     </main>
 
