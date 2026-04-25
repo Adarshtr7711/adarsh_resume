@@ -98,4 +98,55 @@ ul li{
         
 #div_73{height:200px;
         width:200px;
-        background-color:cornsilk;}
+        background-color:cornsilk;
+    }
+
+/* Contact section */
+#contact{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(red,blue);
+    margin-top:5px;
+}
+
+.contacth3{
+    display:inline-block;
+    margin-left:45%;
+}
+
+#contactform{
+    margin-left:15%;
+    display:inline-block;
+}
+
+#formtext{
+    background:transparent;
+    border:0;
+    border-bottom-width:2px;
+    border-bottom-style:groove;
+    border-bottom-color:black;
+}
+#formemail{
+    background:transparent;
+    border:0;
+    border-bottom-width:2px;
+    border-bottom-style:groove;
+    border-bottom-color:black;
+}
+#formtext1{
+    background:transparent;
+    border:0;
+    border-bottom-width:2px;
+    border-bottom-style:groove;
+    border-bottom-color:black;
+}    
+#formsubmit{
+    background:transparent;
+    margin-left:30%;
+}
+
+.contacth31{
+    margin-left:55%;
+    top:-10%;
+    margin-top:0%;
+}
