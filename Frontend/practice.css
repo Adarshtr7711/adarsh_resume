@@ -1,0 +1,217 @@
+.practicep1{color:green}
+
+/* Lightbox Animation */
+#lightbox{
+    top:0;
+    left:0;
+    height:0;
+    width:0;
+    position:fixed;
+    overflow:hidden;
+    transition: all 2s ease-in-out;
+}
+
+#lightbox:target{
+    top:25%;
+    left:25%;
+    height:30%;
+    width:30%;
+    background-color:beige;
+}
+
+/* Skill Section */
+#skill{
+    height:100vh;
+    width:100vw;
+    margin-top:10px;
+    background-color:antiquewhite;
+}
+.skilltitle{
+    color:brown;
+    margin-left:46%;
+    padding-top:20px;
+    font-size:xxx-large;
+    font-style:italic;
+}
+
+/* skill flexbox1 */
+.skillflexbox{
+    display:flex;
+    background-color:rgb(173, 132, 212);
+    height:70%;
+    width:60%;
+    margin-left:10%;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.skillsflexbox1{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+    margin-top:50px;
+    background-size:50%;
+}
+
+.skillsflexbox2{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top:50px;
+    border-radius:30px;
+}
+
+.skillsflexbox3{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top:50px;
+    border-radius:30px;
+}
+
+.skillsflexbox4{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin-top:50px;
+    border-radius:30px;
+}
+
+.skillsflexbox5{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+
+.skillsflexbox6{
+    display:flex;
+    background-color:aqua;
+    height:50px;
+    width:180px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+
+/* Subject_flexbox_parcent */
+
+.skillsflexbox1percent{
+    height:inherit;
+    width:60%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname1{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.skillsflexbox4{
+    margin:0px;
+}
+
+.skillsflexbox2percent{
+    height:inherit;
+    width:90%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname2{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.skillsflexbox3percent{
+    height:inherit;
+    width:90%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname3{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.skillsflexbox4percent{
+    height:inherit;
+    width:90%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname4{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.skillsflexbox5percent{
+    height:inherit;
+    width:40%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname5{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.skillsflexbox6percent{
+    height:inherit;
+    width:40%;
+    background-color:orange;
+    border-radius:30px;
+}
+
+.skillsname6{
+    text-align:center;
+    position:fixed;
+    padding-left:30px;
+    font-size:20px;
+    margin-top:10px;
+}
