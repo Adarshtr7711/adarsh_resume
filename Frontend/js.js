@@ -157,5 +157,6 @@
 // {
 //     console.log("2nd function with paramitar" +name+ "tree");
 // }
-// tree(" coconut ");
-console.log("Hello World")
+
+
+console.log("Hello world")
