@@ -41,3 +41,185 @@ let firstName = "Adarsh"
 let lastName = "T R"
 console.log(firstName + " " + lastName)
 
+// Type conversion & coercion
+let x 
+console.log(x, typeof x)
+
+x = 8
+console.log(x, typeof x)
+
+x = x + " "
+console.log(x, typeof x)
+
+x = x - 2
+console.log(x, typeof x)
+
+x = !x
+console.log(x, typeof x)
+
+let x2 = "23"
+x2 = Number(x2)
+console.log(x2, typeof x2)
+
+// Oparetors
+let num = 4
+num += 2
+console.log(num)
+
+let num_1 = 3
+num_2 = ++num_1 
+console.log(num_2, num_1)
+
+num += 4
+console.log(num)
+
+// Power(^)
+result = 10 ** 2 //4 cube 3
+console.log(result) 
+
+//To find number even or odd
+let num_3 = 12
+if(num_3 % 2 == 0){
+    console.log("even number")
+}
+else{
+    console.log("odd number")
+}
+
+//switch statement
+let day_1 = "Sunday"
+switch(day_1){
+    case "Monday":
+        console.log("7am");
+        break;
+
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+        console.log("4am");
+        break;
+    
+    case "Friday":
+        console.log("9am");
+        break;
+     
+    case "Saturday":
+    case "Sunday":
+        console.log("8am");
+        break;
+        
+    default:
+        console.log("Wrong Input");    
+}
+
+//or
+
+ let day = "Wednesday";
+if(day==="Monday"){
+    console.log("7am")
+}
+else if(day==="Tuesday"||day==="Wednesday"||day==="Thursday"){
+    console.log("4am")
+}
+else if(day==="Friday"){
+    console.log("8am")
+}
+else if(day==="Saturday"||day==="Sunday"){
+    console.log("8am")
+}
+else{
+    console.log("Wrong Input")
+}
+
+//Templet Litral
+let $num1 = 5;
+let $num2 = 4;
+let $result = $num1 + $num2;
+
+console.log(`The addition of ${$num1}  and  ${$num2} is ${$result}`);
+
+//to display output in newline
+
+console.log(`My Name is
+          Adarsh T R`);
+
+// While loop
+let i = 1;
+while(i<=5)
+    {
+        console.log("Hi", i)
+        i++;
+    }          
+
+//do while
+let j = 10;
+do
+{
+    console.log("Hi", j);
+    j++;
+}while(j<=5)
+
+console.log(j);
+
+//for loop
+for(let k=1;k<=5;k++)
+{
+    console.log("Hii", k);
+
+    for(let l=1;l<=5;l++)
+    {
+        console.log("Hello",l);
+    }
+}
+
+console.log("-why while");
+let num_4 = 343678;
+while(num_4>0){
+console.log(num_4%10);
+num_4 = parseInt(num_4/10);
+console.log(num_4);
+}
+// while(num_4>0)
+// // {
+// //     consol.log(num_4%10);
+// //     num = num/10;
+// // }
+
+//object
+console.log("Objects");
+let obj = {
+    brand : "Acer",
+    RAM : "16GB",
+    SSD : "512GB",
+    'price' : 60000,
+    software : {
+        name : "windows11",
+        MSoffice : 2021
+    }
+}
+delete obj.brand
+//for in loop
+for(key in obj.software)
+{
+    console.log(key, obj.software[key]);
+}
+
+//function
+function greet(user)
+{
+    return `Good Morning ${user}`
+}
+let user = "Adarsh T R"
+let results = greet(user);
+console.log(results);
+
+////function expression
+ let add = function(nu1, nu2, nu3)
+ {
+    return nu1 + nu2
+ }
+
+ let r = add(2, 2, 3);
+ console.log(r);
+
+
