@@ -222,4 +222,73 @@ console.log(results);
  let r = add(2, 2, 3);
  console.log(r);
 
+//arrow_function
+let aadd = (anum1, anum2, anum3) =>
+
+     anum1+anum2+anum3;
+
+
+let solu = aadd(3, 4, 5);
+console.log(solu);
+
+// function in side the object
+let laptop_1 = {
+     processor : 'i5',
+     ram : 16,
+     brand : 'Acer',
+     fIno : function()
+     {
+          console.log("Hi");
+     }
+}
+laptop_1.fIno();
+
+// this keyword
+let laptop_2 = {
+     processor : 'i5',
+     ram : 16,
+     brand : 'Acer',
+     fIno : function()
+     {
+          console.log(laptop_2.processor);
+     }
+}
+laptop_2.fIno();
+
+// construtor and new keyworld
+function Alien(name, tech)
+{
+     this.name = name;
+     this.tech = tech;
+}
+
+let alien1 = new Alien('Adarsh', 'js');
+let alien2 = new Alien('somu','Blockchine');
+alien2.tech = 'java'; 
+console.log(alien2);
+
+// Array function
+let data1 = new Array()
+console.log(data1.push(1,4,7))
+console.log(data1, typeof data1);
+
+let arr = [7, 4, 6, 8]
+console.log(arr.splice(1, 2, 9, 2, 3, 5));
+console.log(arr, arr.length);
+
+//for- of loop
+let nums = [];
+nums[0] = 5;
+nums[99] = 9;
+
+console.log(nums,nums.length);
+for(let n of nums)
+{
+     console.log(n);
+}
+
+// for(key in nums)
+// {
+//      console.log(nums[key]);
+// }
 
