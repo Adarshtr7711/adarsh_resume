@@ -292,3 +292,35 @@ for(let n of nums)
 //      console.log(nums[key]);
 // }
 
+// destructuring array
+let darr = [5, 7, 2, 4];
+// console.log(darr);
+let [a,b,,d] = darr;
+console.log(d);
+
+//swaping numbers
+// let [e,f] = [3,4];
+// [e,f] = [f,e]
+// console.log(e,f);
+
+let e = 3;
+let f = 4;
+[e,f] = [f,e];
+console.log(e,f);
+
+//array with strings
+let word = "My name is Adarsh js".split(' ');
+let[p,q,,...s] = word;
+console.log(s);
+
+//forEach method
+
+let numfe = [42, 51, 24, 98, 65, 12]
+
+let result = numfe.filter((n) => n%2===0)
+                  .map((n) => n*2)
+                  .reduce((a,b) => a+b );
+
+console.log(result);
+
+// result.forEach((n) => console.log(n)); //n is a call back function it takes new values every time
