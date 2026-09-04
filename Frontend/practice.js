@@ -324,3 +324,32 @@ let result = numfe.filter((n) => n%2===0)
 console.log(result);
 
 // result.forEach((n) => console.log(n)); //n is a call back function it takes new values every time
+
+// sets
+let numSet = new Set();
+numSet.add(3)
+numSet.add(4)
+numSet.add('Adarsh')
+console.log(numSet.has(1));
+numSet.forEach((a) => {console.log(a)})
+
+// Map()
+let map = new Map()
+map.set("Adarsh", "java");
+map.set("Naveen", "Js");
+map.set("chirag", "ML")
+console.log(map.has("Naveen"), typeof map);
+
+// recursion using factorial
+// finding the factorial of 5! = 5*4*3*2*1
+
+function fact(n)
+{
+     if(n==0)
+          return 1;
+     else
+          return n*fact(n-1);
+}
+// let num = 5;
+let resul = fact(4);
+console.log(resul);
